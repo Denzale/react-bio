@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "react-router-dom";
 
-function About (props) {
+
+function About(props) {
     return (
-        <div>
-
-        </div>
+        <h1> About </h1>
     )
 }
 

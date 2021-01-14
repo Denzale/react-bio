@@ -5,28 +5,29 @@ import Portfolio from './pages/Portfolio.js';
 import Contact from './pages/Contact.js';
 import About from './pages/About.js';
 
-
-
-
-
 function App() {
   return (
+    
     <Router>
       <div className="App">
-
-        <Route exact path="/" component={Portfolio} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
+    <h2> Denzale Houston</h2>
 
-
-
-
-
-        <Link href="/" className="item"> Porfoilio </Link>
-        <Link href="/contact" className="item"> Contact </Link>
-        <Link href="/about" className="item"> About </Link>
-
-
+    
+        <Link to="/portfolio" className="item">
+          {' '}
+          Porfoilio{' '}
+        </Link>
+        <Link to="/contact" className="item">
+          {' '}
+          Contact{' '}
+        </Link>
+        <Link to="/about" className="item">
+          {' '}
+          About{' '}
+        </Link>
       </div>
     </Router>
   );

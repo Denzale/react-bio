@@ -10,7 +10,7 @@ const Navbar = () => {
                 Denzale Houston
         </Link>
             <div>
-                <ul className="navbar-nav">
+                <ul className="navbar-nav" >
                     <li className="nav-item">
                         <Link to="/about" className={location.pathname === "/" || location.pathname === "/about" ? "nav-link active" : "nav-link"}
                         >

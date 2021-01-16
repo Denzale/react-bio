@@ -13,7 +13,7 @@ function Header(props) {
             backSpeed ={60}
             loop
             />
-            <a href="#" className="btn-main-offer"></a>
+            
             </div>
         </div>
     )

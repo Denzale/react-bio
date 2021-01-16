@@ -10,7 +10,7 @@ function Contact() {
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
-                        <h3 style={{ fontSize: 40 }}>Give Me A Buzz</h3>
+                        <h3 style={{ fontSize: 40 }}>Contact</h3>
                     </Col>
                 </Row>
                 <Jumbotron>

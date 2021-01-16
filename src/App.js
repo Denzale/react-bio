@@ -6,45 +6,22 @@ import Portfolio from './pages/Portfolio.js';
 import Contact from './pages/Contact.js';
 import About from './pages/About.js';
 import Navbar from './componets/Navbar.js';
+import Header from './componets/Header.js';
+import Footer from './componets/Footer';
 
 
 function App() {
   return (
-
-
-
-
-
-
-
-
-
-
-
-
- <Router>
-      <Navbar></Navbar>
+<Router>
+      <Navbar/>
+      <Header/>
 
       <div className="App">
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
-    <h2> Denzale Houston</h2>
-
-    
-        <Link to="/portfolio" className="item">
-          {' '}
-          Porfoilio{' '}
-        </Link>
-        <Link to="/contact" className="item">
-          {' '}
-          Contact{' '}
-        </Link>
-        <Link to="/about" className="item">
-          {' '}
-          About{' '}
-        </Link>
       </div>
+      <Footer></Footer>
     </Router>
   );
 }

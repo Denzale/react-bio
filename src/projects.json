@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Day Planner",
+        "image":"/assets/img/dayplanner.JPG",
+        "link":"https://github.com/Denzale/Helpful-Scheduler"
+    },
+    {
+        "id":2,
+        "name":"Earthy Burger",
+        "image":"/assets/img/burger.jpg",
+        "link":"https://github.com/Denzale/Budget-Tracker"
+    },
+    {
+        "id":3,
+        "name":"Note Taker",
+        "image":"/assets/img/notetaker.jpg",
+        "link":"https://infinite-forest-73882.herokuapp.com/"
+    },
+    {
+        "id":4,
+        "name":"Weather Forecast",
+        "image":"/assets/img/fivedayforecast.JPG",
+        "link":"https://denzale.github.io/Weather-Dashboard/"
+    }
+]

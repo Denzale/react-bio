@@ -1,6 +1,6 @@
 import "../App.css";
 import Row from "./Row"
-import Col from "./Col"
+import Colum from "./Col"
 import Container from "./Container"
 
 function Footer() {
@@ -8,8 +8,8 @@ function Footer() {
     <Container fluid>
       <footer style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>
         <Row>
-          <Col className="social-media" size="md-12">
-          </Col>
+          <Colum className="social-media" size="md-12">
+          </Colum>
           <span style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>Denzale Houston 2021 </span>
         </Row>
       </footer>

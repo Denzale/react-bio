@@ -2,9 +2,27 @@ import Container from "../componets/Container";
 import Row from "../componets/Row";
 import Col from "../componets/Col";
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import styled from 'styled-components';
 
+const FormDiv = styled.div`
+  margin: 0 auto;
+  width: 50%;
+`
 
-function Contact() {
+const FormLabel = styled.label`
+  display: block;
+`
+
+const FormInput = styled.input`
+  width: 100%;
+`
+
+const CommentInput = styled.textarea`
+  width: 100%;
+  height: 6em;
+`
+
+function Contact () {
     return (
         <div>
             <Container style={{ marginTop: 30 }}>
@@ -15,7 +33,24 @@ function Contact() {
                 </Row>
                 <Jumbotron>
                     <Row>
-                        <Col size="md-12">
+                             <FormDiv>
+                                    <form action="https://formspree.io/denzalethouston@gmail.com" method="POST" id="contactform">
+                                        <div>
+                                            <FormLabel>Name:</FormLabel>
+                                            <FormInput type="text" name="name" />
+                                        </div>
+                                        <div>
+                                            <FormLabel>Email:</FormLabel>
+                                            <FormInput type="text" name="_replyto" />
+                                        </div>
+                                        <div>
+                                            <FormLabel>Comment:</FormLabel>
+                                            <CommentInput name="comment" />
+                                        </div>
+                                        <button type="submit">Submit</button>
+                                    </form>
+                                </FormDiv>
+\                       <Col size="md-12">
                             <p style={{ fontSize: 30 }}>Email: <a href="mailto:denzalethouston@gmail.com" rel="noreferrer" target="_blank" type="btn">denzalethouston@gmail.com</a>
                             </p>
 
@@ -31,6 +66,10 @@ function Contact() {
                                 <i class="fab fa-github">Here</i>
                             </a>
                             </p>
+                            <div>
+
+
+                            </div>
                         </Col>
                     </Row>
                 </Jumbotron>

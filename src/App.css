@@ -57,6 +57,7 @@ margin-left: 0.75rem;
 
 body{
 font-family: sans-serif;
+background-color: salmon;
 }
 
 .main-info{
@@ -76,7 +77,7 @@ font-family: sans-serif;
 
 .header-wrapper{
   position: relative;
-  background: url(5182ac536727d576c78a9320ac62de30.jpg) no-repeat;
+  background: url(5182ac536727d576c78a9320ac62de30.jpg) ;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -122,4 +123,12 @@ text-align: center;
 
 footer{
   font-family: 'Roboto Mono', monospace
+}
+
+/**************About****************/
+
+
+.imageClass{
+  width: auto;
+  height: auto;
 }

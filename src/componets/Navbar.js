@@ -6,7 +6,7 @@ const Navbar = () => {
     const location = useLocation()
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Link className="navbar-brand" to="/" style={{ fontSize: 30 }}>
+            <Link className="navbar-brand" to="/about" style={{ fontSize: 30 }}>
                 Denzale Houston
         </Link>
             <div>

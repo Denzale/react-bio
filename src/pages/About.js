@@ -43,14 +43,7 @@ function About() {
                             MVC, MongoDB/Mongoose and React.
                         </p>
                         <p>
-                        I am currently working for Banner Health as a transporter. I have built computers as a personal hobby.
-                After I understood how a computer works, I wanted to learn how to think like a computer
-                and test myself to learn something that will take me on a new jorurney.
-                Prior to working in the program I would self teach myself the basics of HTML and CSS to make side projects
-                of things I personally
-                found instresting. I would make personal webpages of my favorite video games or movies. Im intrested in
-                video game development and
-                animation. I like to create personal projects such as editing videos and music.
+                    
                         </p>
                         <p>
 

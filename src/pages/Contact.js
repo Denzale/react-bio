@@ -22,7 +22,7 @@ const CommentInput = styled.textarea`
   height: 6em;
 `
 
-function Contact () {
+function Contact() {
     return (
         <div>
             <Container style={{ marginTop: 30 }}>
@@ -33,23 +33,23 @@ function Contact () {
                 </Row>
                 <Jumbotron>
                     <Row>
-                             <FormDiv>
-                                    <form action="https://formspree.io/denzalethouston@gmail.com" method="POST" id="contactform">
-                                        <div>
-                                            <FormLabel>Name:</FormLabel>
-                                            <FormInput type="text" name="name" />
-                                        </div>
-                                        <div>
-                                            <FormLabel>Email:</FormLabel>
-                                            <FormInput type="text" name="_replyto" />
-                                        </div>
-                                        <div>
-                                            <FormLabel>Comment:</FormLabel>
-                                            <CommentInput name="comment" />
-                                        </div>
-                                        <button type="submit">Submit</button>
-                                    </form>
-                                </FormDiv>
+                        <FormDiv>
+                            <form action="https://formspree.io/denzalethouston@gmail.com" method="POST" id="contactform">
+                                <div>
+                                    <FormLabel>Name:</FormLabel>
+                                    <FormInput type="text" name="name" />
+                                </div>
+                                <div>
+                                    <FormLabel>Email:</FormLabel>
+                                    <FormInput type="text" name="_replyto" />
+                                </div>
+                                <div>
+                                    <FormLabel>Comment:</FormLabel>
+                                    <CommentInput name="comment" />
+                                </div>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </FormDiv>
 \                       <Col size="md-12">
                             <p style={{ fontSize: 30 }}>Email: <a href="mailto:denzalethouston@gmail.com" rel="noreferrer" target="_blank" type="btn">denzalethouston@gmail.com</a>
                             </p>
